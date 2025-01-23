@@ -1,0 +1,7 @@
+Beef
+Porkchop
+Mutton
+Chicken
+Rabbit
+Cod
+Salmon

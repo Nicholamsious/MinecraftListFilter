@@ -102,7 +102,7 @@
 - Barrel
 - Basalt
 - Beacon
-- Beef
+- Raw Beef
 - Beehive
 - Beetroot
 - Beetroot Seeds
@@ -246,7 +246,7 @@
 - Cherry Wood
 - Chest
 - Chest Minecart
-- Chicken
+- Raw Chicken
 - Chipped Anvil
 - Chiseled Bookshelf
 - Chiseled Copper
@@ -282,7 +282,7 @@
 - Cobblestone Wall
 - Cobweb
 - Cocoa Beans
-- Cod
+- Raw Cod
 - Cod Bucket
 - Redstone Comparator
 - Compass
@@ -900,7 +900,7 @@
 - Music Disc Strad
 - Music Disc Wait
 - Music Disc Ward
-- Mutton
+- Raw Mutton
 - Mycelium
 - Name Tag
 - Nautilus Shell
@@ -1065,7 +1065,7 @@
 - Polished Tuff Wall
 - Popped Chorus Fruit
 - Poppy
-- Porkchop
+- Raw Porkchop
 - Potato
 - Mundane Potion
 - Thick Potion
@@ -1244,7 +1244,7 @@
 - Quartz Pillar
 - Quartz Slab
 - Quartz Stairs
-- Rabbit
+- Raw Rabbit
 - Rabbit Foot
 - Rabbit Hide
 - Rabbit Stew
@@ -1303,7 +1303,7 @@
 - Rose Bush
 - Rotten Flesh
 - Saddle
-- Salmon
+- Raw Salmon
 - Salmon Bucket
 - Sand
 - Sandstone

@@ -6,7 +6,7 @@ enum FormattingMode {
 }
 
 public class Main {
-    private static List<String> excluding, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
+    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
     private static String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
     private static File inputFilesFolderFile, itemsDirectory;
     private static String minecraftVersion;
@@ -72,6 +72,7 @@ public class Main {
                 "Potion",
                 "Lingering Potion");
         try {
+            rawFoodMatches = readFile(inputFilesFolder + "/rawfoodmatches.txt");
             enchantments = readFile(inputFilesFolder + "/enchantedbooks.txt");
             potionItems = readFile(inputFilesFolder + "/potions.txt");
             arrows = readFile(inputFilesFolder + "/arrows.txt");
@@ -143,9 +144,15 @@ public class Main {
                                 skipAhead = true;
                         }
                     }
-                    finalName = formatFinalName(finalName);
-                    if (!skipAhead)
+                    if (!skipAhead) {
+                        for(String rawFoodMatch : rawFoodMatches) {
+                            if(finalName.equals(rawFoodMatch)) {
+                                finalName = "Raw " + finalName;
+                            }
+                        }
+                        finalName = formatFinalName(finalName);
                         finalLines.add(finalName);
+                    }
                 }
                 writeObtainableListToFile(outputFilesFolder, minecraftVersion);
             }
