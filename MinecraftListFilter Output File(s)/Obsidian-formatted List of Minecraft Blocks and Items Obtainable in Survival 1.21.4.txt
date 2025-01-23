@@ -458,7 +458,7 @@
 - [[Minecraft Enchanted Book of Breach II]]
 - [[Minecraft Enchanted Book of Breach III]]
 - [[Minecraft Enchanted Book of Breach IV]]
-- [[Minecraft Enchanted Book of Channeling I]]
+- [[Minecraft Enchanted Book of Channeling]]
 - [[Minecraft Enchanted Book of Curse of Binding]]
 - [[Minecraft Enchanted Book of Curse of Vanishing]]
 - [[Minecraft Enchanted Book of Density I]]

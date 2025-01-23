@@ -458,7 +458,7 @@
 - Enchanted Book of Breach II
 - Enchanted Book of Breach III
 - Enchanted Book of Breach IV
-- Enchanted Book of Channeling I
+- Enchanted Book of Channeling
 - Enchanted Book of Curse of Binding
 - Enchanted Book of Curse of Vanishing
 - Enchanted Book of Density I
