@@ -7,15 +7,17 @@ enum FormattingMode {
 
 public class Main {
     private static List<String> excluding, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
-
-    private static FormattingMode FORMATTING_MODE = FormattingMode.OBSIDIAN;
+    private static String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
+    private static File inputFilesFolderFile, itemsDirectory;
+    private static String minecraftVersion;
+    private static FormattingMode formattingMode;
 
     public static String formatFinalName(String finalNameToFormat) {
-        if(FORMATTING_MODE == FormattingMode.OBSIDIAN) {
+        if(formattingMode == FormattingMode.OBSIDIAN) {
             return "- [[Minecraft " + finalNameToFormat + "]]";
-        } else if(FORMATTING_MODE == FormattingMode.REDDIT) {
+        } else if(formattingMode == FormattingMode.REDDIT) {
             return "- " + finalNameToFormat;
-        } else if(FORMATTING_MODE == FormattingMode.TEXT) {
+        } else if(formattingMode == FormattingMode.TEXT) {
             return finalNameToFormat;
         }
         return finalNameToFormat;
@@ -30,14 +32,22 @@ public class Main {
         runMinecraftListFilter();
     }
     public static void runMinecraftListFilter() {
-        String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
-        File inputFilesFolderFile = new File(inputFilesFolder), itemsDirectory = new File(inputFilesFolder + "/items");
+        inputFilesFolderFile = new File(inputFilesFolder);
+        itemsDirectory = new File(inputFilesFolder + "/items");
         if(!inputFilesFolderFile.exists() || !itemsDirectory.exists()) {
             printLine("ERROR! items directory not found in folder " + inputFilesFolder +" (which might not exist either). Stopping.");
             return;
         }
+        minecraftVersion = getUserInputString("What minecraft version (in numbers and dots)? ");
+        formattingMode = FormattingMode.OBSIDIAN;
+        filterFiles(itemsDirectory);
+        formattingMode = FormattingMode.REDDIT;
+        filterFiles(itemsDirectory);
+        formattingMode = FormattingMode.TEXT;
+        filterFiles(itemsDirectory);
+    }
+    public static void filterFiles(File itemsDirectory) {
         File[] files = listFilesInDirectory(itemsDirectory);
-        String minecraftVersion = getUserInputString("What minecraft version (in numbers and dots)? ");
         excluding = Arrays.asList("Spawn Egg",
                 "Egg",
                 "Jigsaw",
@@ -137,14 +147,25 @@ public class Main {
                     if (!skipAhead)
                         finalLines.add(finalName);
                 }
-                File fileToWrite = new File(outputFilesFolder + "/List of Minecraft Blocks and Items Obtainable in Survival "+minecraftVersion+".txt");
-                if(!fileToWrite.exists())
-                    fileToWrite.createNewFile();
-                writeToFile(fileToWrite, finalLines, false);
+                writeObtainableListToFile(outputFilesFolder, minecraftVersion);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public static void writeObtainableListToFile(String outputFilesFolder, String minecraftVersion) throws IOException {
+        String fileVariant = "Null";
+        if(formattingMode == FormattingMode.OBSIDIAN) {
+            fileVariant = "Obsidian";
+        } else if(formattingMode == FormattingMode.REDDIT) {
+            fileVariant = "Reddit";
+        } else if(formattingMode == FormattingMode.TEXT) {
+            fileVariant = "Raw-text";
+        }
+        File fileToWrite = new File(outputFilesFolder + "/"+fileVariant+"-formatted List of Minecraft Blocks and Items Obtainable in Survival "+minecraftVersion+".txt");
+        if(!fileToWrite.exists())
+            fileToWrite.createNewFile();
+        writeToFile(fileToWrite, finalLines, false);
     }
     public static void printLine(String string) {
         System.out.println(string);
