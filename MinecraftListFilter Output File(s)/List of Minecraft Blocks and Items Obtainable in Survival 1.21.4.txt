@@ -631,7 +631,14 @@
 - Glow Ink Sac
 - Glow Item Frame
 - Glow Lichen
-- Goat Horn
+- Goat Horn (Ponder)
+- Goat Horn (Sing)
+- Goat Horn (Seek)
+- Goat Horn (Feel)
+- Goat Horn (Admire)
+- Goat Horn (Call)
+- Goat Horn (Yearn)
+- Goat Horn (Dream)
 - Golden Apple
 - Golden Axe
 - Golden Boots

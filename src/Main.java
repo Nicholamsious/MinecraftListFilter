@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    private static List<String> excluding, enchantments, potionItems, arrows, ominousBottles, finalLines;
+    private static List<String> excluding, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
 
     public static String formatFinalName(String finalNameToFormat) {
         return "- " + finalNameToFormat + "";
@@ -53,6 +53,7 @@ public class Main {
             potionItems = readFile(inputFilesFolder + "/potions.txt");
             arrows = readFile(inputFilesFolder + "/arrows.txt");
             ominousBottles = readFile(inputFilesFolder + "/ominousbottles.txt");
+            goatHorns = readFile(inputFilesFolder + "/goathorns.txt");
             finalLines = new ArrayList<>();
             if (files != null) {
                 String name;
@@ -99,6 +100,14 @@ public class Main {
                     if (finalName.equals("Ominous Bottle")) {
                         for (String ominousBottle : ominousBottles) {
                             finalName = ominousBottle;
+                            finalName = formatFinalName(finalName);
+                            finalLines.add(finalName);
+                        }
+                        continue;
+                    }
+                    if (finalName.equals("Goat Horn")) {
+                        for (String goatHorn : goatHorns) {
+                            finalName = goatHorn;
                             finalName = formatFinalName(finalName);
                             finalLines.add(finalName);
                         }
