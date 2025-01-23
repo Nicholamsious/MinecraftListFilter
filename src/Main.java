@@ -1,11 +1,24 @@
 import java.io.*;
 import java.util.*;
 
+enum FormattingMode {
+    OBSIDIAN, REDDIT, TEXT
+}
+
 public class Main {
     private static List<String> excluding, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
 
+    private static FormattingMode FORMATTING_MODE = FormattingMode.OBSIDIAN;
+
     public static String formatFinalName(String finalNameToFormat) {
-        return "- " + finalNameToFormat + "";
+        if(FORMATTING_MODE == FormattingMode.OBSIDIAN) {
+            return "- [[Minecraft " + finalNameToFormat + "]]";
+        } else if(FORMATTING_MODE == FormattingMode.REDDIT) {
+            return "- " + finalNameToFormat;
+        } else if(FORMATTING_MODE == FormattingMode.TEXT) {
+            return finalNameToFormat;
+        }
+        return finalNameToFormat;
     }
 
     public static File[] listFilesInDirectory(File itemsDirectory) {
