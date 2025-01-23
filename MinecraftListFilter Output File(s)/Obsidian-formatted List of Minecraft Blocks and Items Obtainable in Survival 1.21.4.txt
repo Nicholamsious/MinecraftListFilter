@@ -444,7 +444,7 @@
 - [[Minecraft Emerald]]
 - [[Minecraft Emerald Block]]
 - [[Minecraft Emerald Ore]]
-- [[Minecraft Enchanted Book of Aqua Affinity I]]
+- [[Minecraft Enchanted Book of Aqua Affinity]]
 - [[Minecraft Enchanted Book of Bane of Arthropods I]]
 - [[Minecraft Enchanted Book of Bane of Arthropods II]]
 - [[Minecraft Enchanted Book of Bane of Arthropods III]]

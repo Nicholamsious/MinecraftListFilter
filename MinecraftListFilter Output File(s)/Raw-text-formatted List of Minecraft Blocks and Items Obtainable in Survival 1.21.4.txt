@@ -444,7 +444,7 @@ Elytra
 Emerald
 Emerald Block
 Emerald Ore
-Enchanted Book of Aqua Affinity I
+Enchanted Book of Aqua Affinity
 Enchanted Book of Bane of Arthropods I
 Enchanted Book of Bane of Arthropods II
 Enchanted Book of Bane of Arthropods III
