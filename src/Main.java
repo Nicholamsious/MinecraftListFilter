@@ -104,38 +104,38 @@ public class Main {
                             finalLines.add(finalName);
                         }
                         continue;
-                    }
-                    if (finalName.equals("Arrow")) {
+                    } else if (finalName.equals("Arrow")) {
                         for (String arrow : arrows) {
                             finalName = arrow;
                             finalName = formatFinalName(finalName);
                             finalLines.add(finalName);
                         }
                         continue;
-                    }
-                    if (finalName.equals("Potion")) {
+                    } else if (finalName.equals("Potion")) {
                         for (String potion : potionItems) {
                             finalName = potion;
                             finalName = formatFinalName(finalName);
                             finalLines.add(finalName);
                         }
                         continue;
-                    }
-                    if (finalName.equals("Ominous Bottle")) {
+                    } else if (finalName.equals("Ominous Bottle")) {
                         for (String ominousBottle : ominousBottles) {
                             finalName = ominousBottle;
                             finalName = formatFinalName(finalName);
                             finalLines.add(finalName);
                         }
                         continue;
-                    }
-                    if (finalName.equals("Goat Horn")) {
+                    } else if (finalName.equals("Goat Horn")) {
                         for (String goatHorn : goatHorns) {
                             finalName = goatHorn;
                             finalName = formatFinalName(finalName);
                             finalLines.add(finalName);
                         }
                         continue;
+                    } else if(finalName.equals("Experience Bottle")) {
+                        finalName = "Bottle o' Enchanting";
+                    } else if(finalName.equals("Jack O Lantern")) {
+                        finalName = "Jack o'Lantern";
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {

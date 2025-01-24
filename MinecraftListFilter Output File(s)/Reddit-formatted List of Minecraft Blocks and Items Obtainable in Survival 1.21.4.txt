@@ -175,6 +175,7 @@
 - Book and Quill
 - Bookshelf
 - Bordure Indented Banner Pattern
+- Bottle o' Enchanting
 - Bow
 - Bowl
 - Brain Coral
@@ -581,7 +582,6 @@
 - Ender Chest
 - Ender Eye
 - Ender Pearl
-- Experience Bottle
 - Explorer Pottery Sherd
 - Exposed Chiseled Copper
 - Exposed Copper
@@ -731,7 +731,7 @@
 - Iron Sword
 - Iron Trapdoor
 - Item Frame
-- Jack O Lantern
+- Jack o'Lantern
 - Jukebox
 - Jungle Boat
 - Jungle Button
