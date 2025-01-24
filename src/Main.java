@@ -157,6 +157,7 @@ public class Main {
                         finalLines.add(finalName);
                     }
                 }
+                Collections.sort(finalLines);
                 writeObtainableListToFile(outputFilesFolder, minecraftVersion);
             }
         } catch (IOException e) {
