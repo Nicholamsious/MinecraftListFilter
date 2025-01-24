@@ -768,7 +768,6 @@
 - Leather Leggings
 - Lectern
 - Lever
-- Light
 - Lightning Rod
 - Light Blue Banner
 - Light Blue Bed

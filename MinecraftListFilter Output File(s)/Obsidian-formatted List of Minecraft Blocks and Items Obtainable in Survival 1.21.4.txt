@@ -768,7 +768,6 @@
 - [[Minecraft Leather Leggings]]
 - [[Minecraft Lectern]]
 - [[Minecraft Lever]]
-- [[Minecraft Light]]
 - [[Minecraft Lightning Rod]]
 - [[Minecraft Light Blue Banner]]
 - [[Minecraft Light Blue Bed]]

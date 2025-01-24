@@ -138,6 +138,9 @@ public class Main {
                         continue;
                     }
                     boolean skipAhead = false;
+                    if(finalName.equals("Light")) {
+                        skipAhead = true;
+                    }
                     if (!finalName.startsWith("Enchanted Book")) {
                         for (String badSubstring : excluding) {
                             if (finalName.contains(badSubstring))
