@@ -22,6 +22,7 @@ public class Main {
             }
         }
         if(formattingMode == FormattingMode.OBSIDIAN) {
+            finalNameToFormat = finalNameToFormat.replaceAll(":", "-");
             finalNameToFormat = "- [[Minecraft " + finalNameToFormat + "]]";
         } else if(formattingMode == FormattingMode.REDDIT) {
             finalNameToFormat = "- " + finalNameToFormat;
