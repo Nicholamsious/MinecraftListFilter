@@ -170,6 +170,12 @@ public class Main {
                         finalName = "Eye of Ender";
                     } else if(finalName.contains("Chest Boat")) {
                         finalName = finalName.replace("Chest Boat", "Boat with Chest");
+                    } else if(finalName.contains("Chest Minecart")) {
+                        finalName = finalName.replace("Chest Minecart", "Minecart with Chest");
+                    } else if(finalName.contains("Furnace Minecart")) {
+                        finalName = finalName.replace("Furnace Minecart", "Minecart with Furnace");
+                    } else if(finalName.contains("TNT Minecart")) {
+                        finalName = finalName.replace("TNT Minecart", "Minecart with TNT");
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {

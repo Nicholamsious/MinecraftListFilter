@@ -249,7 +249,6 @@ Cherry Stairs
 Cherry Trapdoor
 Cherry Wood
 Chest
-Chest Minecart
 Chipped Anvil
 Chiseled Bookshelf
 Chiseled Deepslate
@@ -601,7 +600,6 @@ Flowering Azalea
 Flowering Azalea Leaves
 Friend Pottery Sherd
 Furnace
-Furnace Minecart
 Ghast Tear
 Gilded Blackstone
 Glass
@@ -886,6 +884,9 @@ Melon Seeds
 Melon Slice
 Milk Bucket
 Minecart
+Minecart with Chest
+Minecart with Furnace
+Minecart with TNT
 Miner Pottery Sherd
 Moss Block
 Moss Carpet
@@ -1408,7 +1409,6 @@ Suspicious Sand
 Suspicious Stew
 Sweet Berries
 TNT
-TNT Minecart
 Tadpole Bucket
 Tall Grass
 Target
