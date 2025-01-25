@@ -1,0 +1,20 @@
+Fishing Rod
+Spyglass
+Flint and Steel
+Axe
+Hoe
+Pickaxe
+Shovel
+Sword
+Bow
+Crossbow
+Trident
+Mace
+Shield
+Elytra
+Saddle
+Book and Quill
+Turtle Shell
+Totem of Undying
+Water Bottle
+Suspicious Stew

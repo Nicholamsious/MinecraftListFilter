@@ -1,0 +1,19 @@
+Bucket
+Potion
+Banner Pattern
+Enchanted Book
+Goat Horn
+Music Disc
+Bed
+Bundle
+Shulker Box
+Horse Armor
+on a Stick
+Wolf Armor
+Boat
+Raft
+Minecart
+Helmet
+Chestplate
+Leggings
+Boots

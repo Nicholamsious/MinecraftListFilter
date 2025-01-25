@@ -6,17 +6,20 @@ enum FormattingMode {
 }
 
 public class Main {
-    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines, unstackables, stack16, stack64;
+    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines, unstackablesMatch, unstackablesContain, stack16Match, stack16Contain;
     private static String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
     private static File inputFilesFolderFile, itemsDirectory;
     private static String minecraftVersion;
     private static FormattingMode formattingMode;
-    private static boolean getMaximumStackAmounts = false;
 
-    public static String formatFinalName(String finalNameToFormat) {
-        int maximumStackAmount = getMaximumStackAmount(finalNameToFormat);
-        if(maximumStackAmount > 0) {
-            finalNameToFormat += " (Maximum stack: " + maximumStackAmount +")";
+    public static String formatFinalName(String finalNameToFormat, boolean includeMaximumStackAmounts) {
+        if(includeMaximumStackAmounts) {
+            int maximumStackAmount = getMaximumStackAmount(finalNameToFormat);
+            if (maximumStackAmount > 1) {
+                finalNameToFormat += " (Max: x" + maximumStackAmount + ")";
+            } else if (maximumStackAmount == 1) {
+                finalNameToFormat += " (Unstackable)";
+            }
         }
         if(formattingMode == FormattingMode.OBSIDIAN) {
             finalNameToFormat = "- [[Minecraft " + finalNameToFormat + "]]";
@@ -45,13 +48,19 @@ public class Main {
         }
         minecraftVersion = getUserInputString("What minecraft version (in numbers and dots)? ");
         formattingMode = FormattingMode.OBSIDIAN;
-        filterFiles(itemsDirectory);
+        filterFiles(itemsDirectory, false);
         formattingMode = FormattingMode.REDDIT;
-        filterFiles(itemsDirectory);
+        filterFiles(itemsDirectory, false);
         formattingMode = FormattingMode.TEXT;
-        filterFiles(itemsDirectory);
+        filterFiles(itemsDirectory, false);
+        formattingMode = FormattingMode.OBSIDIAN;
+        filterFiles(itemsDirectory, true);
+        formattingMode = FormattingMode.REDDIT;
+        filterFiles(itemsDirectory, true);
+        formattingMode = FormattingMode.TEXT;
+        filterFiles(itemsDirectory, true);
     }
-    public static void filterFiles(File itemsDirectory) {
+    public static void filterFiles(File itemsDirectory, boolean includeMaximumStackAmounts) {
         File[] files = listFilesInDirectory(itemsDirectory);
         excluding = Arrays.asList("Spawn Egg",
                 "Jigsaw",
@@ -83,6 +92,10 @@ public class Main {
             ominousBottles = readFile(inputFilesFolder + "/ominousbottles.txt");
             goatHorns = readFile(inputFilesFolder + "/goathorns.txt");
             finalLines = new ArrayList<>();
+            unstackablesMatch = readFile(inputFilesFolder + "/unstackablesmatch.txt");
+            unstackablesContain = readFile(inputFilesFolder + "/unstackablescontain.txt");
+            stack16Match = readFile(inputFilesFolder + "/stack16match.txt");
+            stack16Contain = readFile(inputFilesFolder + "/stack16contain.txt");
             if (files != null) {
                 String name;
                 String[] words;
@@ -104,35 +117,35 @@ public class Main {
                     if (finalName.equals("Enchanted Book")) {
                         for (String enchantment : enchantments) {
                             finalName = "Enchanted Book of " + enchantment;
-                            finalName = formatFinalName(finalName);
+                            finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                             finalLines.add(finalName);
                         }
                         continue;
                     } else if (finalName.equals("Arrow")) {
                         for (String arrow : arrows) {
                             finalName = arrow;
-                            finalName = formatFinalName(finalName);
+                            finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                             finalLines.add(finalName);
                         }
                         continue;
                     } else if (finalName.equals("Potion")) {
                         for (String potion : potionItems) {
                             finalName = potion;
-                            finalName = formatFinalName(finalName);
+                            finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                             finalLines.add(finalName);
                         }
                         continue;
                     } else if (finalName.equals("Ominous Bottle")) {
                         for (String ominousBottle : ominousBottles) {
                             finalName = ominousBottle;
-                            finalName = formatFinalName(finalName);
+                            finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                             finalLines.add(finalName);
                         }
                         continue;
                     } else if (finalName.equals("Goat Horn")) {
                         for (String goatHorn : goatHorns) {
                             finalName = goatHorn;
-                            finalName = formatFinalName(finalName);
+                            finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                             finalLines.add(finalName);
                         }
                         continue;
@@ -157,27 +170,32 @@ public class Main {
                                 finalName = "Raw " + finalName;
                             }
                         }
-                        finalName = formatFinalName(finalName);
+                        finalName = formatFinalName(finalName, includeMaximumStackAmounts);
                         finalLines.add(finalName);
                     }
                 }
                 Collections.sort(finalLines);
-                writeObtainableListToFile(outputFilesFolder, minecraftVersion);
+                writeObtainableListToFile(outputFilesFolder, minecraftVersion, includeMaximumStackAmounts);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    public static void writeObtainableListToFile(String outputFilesFolder, String minecraftVersion) throws IOException {
+    public static void writeObtainableListToFile(String outputFilesFolder, String minecraftVersion, boolean includeMaximumStackAmounts) throws IOException {
         String fileVariant = "Null";
-        if(formattingMode == FormattingMode.OBSIDIAN) {
-            fileVariant = "Obsidian";
-        } else if(formattingMode == FormattingMode.REDDIT) {
-            fileVariant = "Reddit";
-        } else if(formattingMode == FormattingMode.TEXT) {
-            fileVariant = "Raw-text";
+        String fileName = "";
+        if(includeMaximumStackAmounts) {
+            fileName += "(With stack sizes) ";
         }
-        File fileToWrite = new File(outputFilesFolder + "/"+fileVariant+"-formatted List of Minecraft Blocks and Items Obtainable in Survival "+minecraftVersion+".txt");
+        if(formattingMode == FormattingMode.OBSIDIAN) {
+            fileName += "Obsidian";
+        } else if(formattingMode == FormattingMode.REDDIT) {
+            fileName += "Reddit";
+        } else if(formattingMode == FormattingMode.TEXT) {
+            fileName += "Raw-text";
+        }
+        fileName += "-formatted List of Minecraft Blocks and Items Obtainable in Survival "+minecraftVersion+".txt";
+        File fileToWrite = new File(outputFilesFolder + "/"+fileName);
         if(!fileToWrite.exists())
             fileToWrite.createNewFile();
         writeToFile(fileToWrite, finalLines, false);
@@ -224,10 +242,26 @@ public class Main {
         bw.close();
     }
     public static int getMaximumStackAmount(String finalLine) {
-        if(!getMaximumStackAmounts) {
-            return -1;
-        } else {
+        for(String potentialMatch : unstackablesMatch) {
+            if(finalLine.equals(potentialMatch)) {
+                return 1;
+            }
         }
-        return -1;
+        for(String potentialMatch : stack16Match) {
+            if(finalLine.equals(potentialMatch)) {
+                return 16;
+            }
+        }
+        for(String potentialSubstring : unstackablesContain) {
+            if(finalLine.contains(potentialSubstring)) {
+                return 1;
+            }
+        }
+        for(String potentialSubstring : stack16Contain) {
+            if(finalLine.contains(potentialSubstring)) {
+                return 16;
+            }
+        }
+        return 64;
     }
 }
