@@ -887,7 +887,6 @@
 - Milk Bucket
 - Minecart
 - Miner Pottery Sherd
-- Mojang Banner Pattern
 - Moss Block
 - Moss Carpet
 - Mossy Cobblestone
@@ -1417,6 +1416,7 @@
 - Thick Lingering Potion
 - Thick Potion
 - Thick Splash Potion
+- Thing Banner Pattern
 - Tide Armor Trim Smithing Template
 - Tinted Glass
 - Tipped Arrow

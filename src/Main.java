@@ -164,6 +164,8 @@ public class Main {
                         finalName = "Creeper Charge Banner Pattern";
                     } else if(finalName.equals("Skull Banner Pattern")) {
                         finalName = "Skull Charge Banner Pattern";
+                    } else if(finalName.equals("Mojang Banner Pattern")) {
+                        finalName = "Thing Banner Pattern";
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {
