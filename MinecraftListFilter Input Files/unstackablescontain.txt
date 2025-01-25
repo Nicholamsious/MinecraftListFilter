@@ -17,3 +17,4 @@ Helmet
 Chestplate
 Leggings
 Boots
+Water Bottle
