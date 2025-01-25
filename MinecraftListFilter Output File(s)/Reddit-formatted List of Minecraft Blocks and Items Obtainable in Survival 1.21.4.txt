@@ -841,6 +841,7 @@
 - Lingering Potion of the Turtle Master (Slowness IV & Resistance III 00:05)
 - Lingering Potion of the Turtle Master (Slowness IV & Resistance III 00:10)
 - Lingering Potion of the Turtle Master (Slowness VI & Resistance IV 00:05)
+- Lingering Water Bottle
 - Lodestone
 - Loom
 - Mace
@@ -1338,6 +1339,7 @@
 - Splash Potion of the Turtle Master (Slowness IV & Resistance III 00:20)
 - Splash Potion of the Turtle Master (Slowness IV & Resistance III 00:40)
 - Splash Potion of the Turtle Master (Slowness VI & Resistance IV 00:20)
+- Splash Water Bottle
 - Sponge
 - Spore Blossom
 - Spruce Boat

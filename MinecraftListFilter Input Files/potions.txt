@@ -44,6 +44,7 @@ Potion of Wind Charging (Wind Charged 03:00)
 Potion of Weaving (03:00)
 Potion of Oozing (03:00)
 Potion of Infestation (Infested 03:00)
+Splash Water Bottle
 Mundane Splash Potion
 Thick Splash Potion
 Awkward Splash Potion
@@ -89,6 +90,7 @@ Splash Potion of Wind Charging (Wind Charged 03:00)
 Splash Potion of Weaving (03:00)
 Splash Potion of Oozing (03:00)
 Splash Potion of Infestation (Infested 03:00)
+Lingering Water Bottle
 Mundane Lingering Potion
 Thick Lingering Potion
 Awkward Lingering Potion
