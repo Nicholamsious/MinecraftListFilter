@@ -166,6 +166,8 @@ public class Main {
                         finalName = "Skull Charge Banner Pattern";
                     } else if(finalName.equals("Mojang Banner Pattern")) {
                         finalName = "Thing Banner Pattern";
+                    } else if(finalName.equals("Ender Eye")) {
+                        finalName = "Eye of Ender";
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {

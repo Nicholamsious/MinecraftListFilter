@@ -573,10 +573,10 @@
 - End Stone Brick Wall
 - End Stone Bricks
 - Ender Chest
-- Ender Eye
 - Ender Pearl
 - Explorer Pottery Sherd
 - Eye Armor Trim Smithing Template
+- Eye of Ender
 - Feather
 - Fermented Spider Eye
 - Fern
