@@ -168,6 +168,8 @@ public class Main {
                         finalName = "Thing Banner Pattern";
                     } else if(finalName.equals("Ender Eye")) {
                         finalName = "Eye of Ender";
+                    } else if(finalName.contains("Chest Boat")) {
+                        finalName = finalName.replace("Chest Boat", "Boat with Chest");
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {

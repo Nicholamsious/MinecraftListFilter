@@ -1,6 +1,6 @@
 Acacia Boat
+Acacia Boat with Chest
 Acacia Button
-Acacia Chest Boat
 Acacia Door
 Acacia Fence
 Acacia Fence Gate
@@ -113,8 +113,8 @@ Beetroot Soup
 Bell
 Big Dripleaf
 Birch Boat
+Birch Boat with Chest
 Birch Button
-Birch Chest Boat
 Birch Door
 Birch Fence
 Birch Fence Gate
@@ -232,8 +232,8 @@ Chainmail Helmet
 Chainmail Leggings
 Charcoal
 Cherry Boat
+Cherry Boat with Chest
 Cherry Button
-Cherry Chest Boat
 Cherry Door
 Cherry Fence
 Cherry Fence Gate
@@ -349,8 +349,8 @@ Damaged Anvil
 Dandelion
 Danger Pottery Sherd
 Dark Oak Boat
+Dark Oak Boat with Chest
 Dark Oak Button
-Dark Oak Chest Boat
 Dark Oak Door
 Dark Oak Fence
 Dark Oak Fence Gate
@@ -718,8 +718,8 @@ Item Frame
 Jack o'Lantern
 Jukebox
 Jungle Boat
+Jungle Boat with Chest
 Jungle Button
-Jungle Chest Boat
 Jungle Door
 Jungle Fence
 Jungle Fence Gate
@@ -862,8 +862,8 @@ Magenta Wool
 Magma Block
 Magma Cream
 Mangrove Boat
+Mangrove Boat with Chest
 Mangrove Button
-Mangrove Chest Boat
 Mangrove Door
 Mangrove Fence
 Mangrove Fence Gate
@@ -959,8 +959,8 @@ Netherite Upgrade Smithing Template
 Netherrack
 Note Block
 Oak Boat
+Oak Boat with Chest
 Oak Button
-Oak Chest Boat
 Oak Door
 Oak Fence
 Oak Fence Gate
@@ -1008,8 +1008,8 @@ Pale Hanging Moss
 Pale Moss Block
 Pale Moss Carpet
 Pale Oak Boat
+Pale Oak Boat with Chest
 Pale Oak Button
-Pale Oak Chest Boat
 Pale Oak Door
 Pale Oak Fence
 Pale Oak Fence Gate
@@ -1342,8 +1342,8 @@ Splash Water Bottle
 Sponge
 Spore Blossom
 Spruce Boat
+Spruce Boat with Chest
 Spruce Button
-Spruce Chest Boat
 Spruce Door
 Spruce Fence
 Spruce Fence Gate
