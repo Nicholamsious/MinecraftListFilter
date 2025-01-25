@@ -16,7 +16,7 @@ public class Main {
         if(includeMaximumStackAmounts) {
             int maximumStackAmount = getMaximumStackAmount(finalNameToFormat);
             if (maximumStackAmount > 1) {
-                finalNameToFormat += " (Max: x" + maximumStackAmount + ")";
+                finalNameToFormat += " (Max x" + maximumStackAmount + ")";
             } else if (maximumStackAmount == 1) {
                 finalNameToFormat += " (Unstackable)";
             }
