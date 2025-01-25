@@ -6,19 +6,24 @@ enum FormattingMode {
 }
 
 public class Main {
-    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines;
+    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines, unstackables, stack16, stack64;
     private static String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
     private static File inputFilesFolderFile, itemsDirectory;
     private static String minecraftVersion;
     private static FormattingMode formattingMode;
+    private static boolean getMaximumStackAmounts = false;
 
     public static String formatFinalName(String finalNameToFormat) {
+        int maximumStackAmount = getMaximumStackAmount(finalNameToFormat);
+        if(maximumStackAmount > 0) {
+            finalNameToFormat += " (Maximum stack: " + maximumStackAmount +")";
+        }
         if(formattingMode == FormattingMode.OBSIDIAN) {
-            return "- [[Minecraft " + finalNameToFormat + "]]";
+            finalNameToFormat = "- [[Minecraft " + finalNameToFormat + "]]";
         } else if(formattingMode == FormattingMode.REDDIT) {
-            return "- " + finalNameToFormat;
+            finalNameToFormat = "- " + finalNameToFormat;
         } else if(formattingMode == FormattingMode.TEXT) {
-            return finalNameToFormat;
+            finalNameToFormat = finalNameToFormat;
         }
         return finalNameToFormat;
     }
@@ -49,7 +54,6 @@ public class Main {
     public static void filterFiles(File itemsDirectory) {
         File[] files = listFilesInDirectory(itemsDirectory);
         excluding = Arrays.asList("Spawn Egg",
-                "Egg",
                 "Jigsaw",
                 "Player Head",
                 "Barrier",
@@ -218,5 +222,12 @@ public class Main {
         }
         bw.flush();
         bw.close();
+    }
+    public static int getMaximumStackAmount(String finalLine) {
+        if(!getMaximumStackAmounts) {
+            return -1;
+        } else {
+        }
+        return -1;
     }
 }

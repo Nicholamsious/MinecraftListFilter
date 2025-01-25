@@ -434,6 +434,7 @@ Dirt
 Disc Fragment 5
 Dispenser
 Dragon Breath
+Dragon Egg
 Dragon Head
 Dried Kelp
 Dried Kelp Block
@@ -441,6 +442,7 @@ Dripstone Block
 Dropper
 Dune Armor Trim Smithing Template
 Echo Shard
+Egg
 Elytra
 Emerald
 Emerald Block
@@ -1307,6 +1309,7 @@ Smooth Sandstone Slab
 Smooth Sandstone Stairs
 Smooth Stone
 Smooth Stone Slab
+Sniffer Egg
 Snort Pottery Sherd
 Snout Armor Trim Smithing Template
 Snow
@@ -1463,6 +1466,7 @@ Tuff Bricks
 Tuff Slab
 Tuff Stairs
 Tuff Wall
+Turtle Egg
 Turtle Helmet
 Turtle Scute
 Twisting Vines
