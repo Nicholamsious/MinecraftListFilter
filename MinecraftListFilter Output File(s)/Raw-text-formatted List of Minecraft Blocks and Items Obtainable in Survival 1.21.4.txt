@@ -252,7 +252,6 @@ Chest
 Chest Minecart
 Chipped Anvil
 Chiseled Bookshelf
-Chiseled Copper
 Chiseled Deepslate
 Chiseled Nether Bricks
 Chiseled Polished Blackstone
@@ -297,13 +296,8 @@ Cooked Porkchop
 Cooked Rabbit
 Cooked Salmon
 Cookie
-Copper Block
-Copper Bulb
-Copper Door
-Copper Grate
 Copper Ingot
 Copper Ore
-Copper Trapdoor
 Cornflower
 Cracked Deepslate Bricks
 Cracked Deepslate Tiles
@@ -333,9 +327,6 @@ Crimson Stem
 Crimson Trapdoor
 Crossbow
 Crying Obsidian
-Cut Copper
-Cut Copper Slab
-Cut Copper Stairs
 Cut Red Sandstone
 Cut Red Sandstone Slab
 Cut Sandstone
@@ -585,15 +576,6 @@ Ender Chest
 Ender Eye
 Ender Pearl
 Explorer Pottery Sherd
-Exposed Chiseled Copper
-Exposed Copper
-Exposed Copper Bulb
-Exposed Copper Door
-Exposed Copper Grate
-Exposed Copper Trapdoor
-Exposed Cut Copper
-Exposed Cut Copper Slab
-Exposed Cut Copper Stairs
 Eye Armor Trim Smithing Template
 Feather
 Fermented Spider Eye
@@ -1019,15 +1001,6 @@ Orange Terracotta
 Orange Tulip
 Orange Wool
 Oxeye Daisy
-Oxidized Chiseled Copper
-Oxidized Copper
-Oxidized Copper Bulb
-Oxidized Copper Door
-Oxidized Copper Grate
-Oxidized Copper Trapdoor
-Oxidized Cut Copper
-Oxidized Cut Copper Slab
-Oxidized Cut Copper Stairs
 Packed Ice
 Packed Mud
 Painting
@@ -1470,6 +1443,42 @@ Turtle Egg
 Turtle Helmet
 Turtle Scute
 Twisting Vines
+Unwaxed Chiseled Copper
+Unwaxed Copper Block
+Unwaxed Copper Bulb
+Unwaxed Copper Door
+Unwaxed Copper Grate
+Unwaxed Copper Trapdoor
+Unwaxed Cut Copper
+Unwaxed Cut Copper Slab
+Unwaxed Cut Copper Stairs
+Unwaxed Exposed Chiseled Copper
+Unwaxed Exposed Copper
+Unwaxed Exposed Copper Bulb
+Unwaxed Exposed Copper Door
+Unwaxed Exposed Copper Grate
+Unwaxed Exposed Copper Trapdoor
+Unwaxed Exposed Cut Copper
+Unwaxed Exposed Cut Copper Slab
+Unwaxed Exposed Cut Copper Stairs
+Unwaxed Oxidized Chiseled Copper
+Unwaxed Oxidized Copper
+Unwaxed Oxidized Copper Bulb
+Unwaxed Oxidized Copper Door
+Unwaxed Oxidized Copper Grate
+Unwaxed Oxidized Copper Trapdoor
+Unwaxed Oxidized Cut Copper
+Unwaxed Oxidized Cut Copper Slab
+Unwaxed Oxidized Cut Copper Stairs
+Unwaxed Weathered Chiseled Copper
+Unwaxed Weathered Copper
+Unwaxed Weathered Copper Bulb
+Unwaxed Weathered Copper Door
+Unwaxed Weathered Copper Grate
+Unwaxed Weathered Copper Trapdoor
+Unwaxed Weathered Cut Copper
+Unwaxed Weathered Cut Copper Slab
+Unwaxed Weathered Cut Copper Stairs
 Verdant Froglight
 Vex Armor Trim Smithing Template
 Vine
@@ -1530,15 +1539,6 @@ Waxed Weathered Cut Copper
 Waxed Weathered Cut Copper Slab
 Waxed Weathered Cut Copper Stairs
 Wayfinder Armor Trim Smithing Template
-Weathered Chiseled Copper
-Weathered Copper
-Weathered Copper Bulb
-Weathered Copper Door
-Weathered Copper Grate
-Weathered Copper Trapdoor
-Weathered Cut Copper
-Weathered Cut Copper Slab
-Weathered Cut Copper Stairs
 Weeping Vines
 Wet Sponge
 Wheat

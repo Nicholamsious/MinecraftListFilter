@@ -149,6 +149,10 @@ public class Main {
                             finalLines.add(finalName);
                         }
                         continue;
+                    } else if (finalName.contains("Copper")) {
+                        if(!finalName.contains("Waxed") && !finalName.contains("Raw") && !finalName.contains("Ore") && !finalName.contains("Ingot")) {
+                            finalName = "Unwaxed " + finalName;
+                        }
                     } else if(finalName.equals("Experience Bottle")) {
                         finalName = "Bottle o' Enchanting";
                     } else if(finalName.equals("Jack O Lantern")) {
