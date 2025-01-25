@@ -307,7 +307,7 @@ Cracked Stone Bricks
 Crafter
 Crafting Table
 Creaking Heart
-Creeper Banner Pattern
+Creeper Charge Banner Pattern
 Creeper Head
 Crimson Button
 Crimson Door
@@ -595,7 +595,7 @@ Flint And Steel
 Flow Armor Trim Smithing Template
 Flow Banner Pattern
 Flow Pottery Sherd
-Flower Banner Pattern
+Flower Charge Banner Pattern
 Flower Pot
 Flowering Azalea
 Flowering Azalea Leaves
@@ -1263,7 +1263,7 @@ Shulker Box
 Shulker Shell
 Silence Armor Trim Smithing Template
 Skeleton Skull
-Skull Banner Pattern
+Skull Charge Banner Pattern
 Skull Pottery Sherd
 Slime Ball
 Slime Block

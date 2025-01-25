@@ -158,6 +158,12 @@ public class Main {
                         finalName = "Bottle o' Enchanting";
                     } else if(finalName.equals("Jack O Lantern")) {
                         finalName = "Jack o'Lantern";
+                    } else if(finalName.equals("Flower Banner Pattern")) {
+                        finalName = "Flower Charge Banner Pattern";
+                    } else if(finalName.equals("Creeper Banner Pattern")) {
+                        finalName = "Creeper Charge Banner Pattern";
+                    } else if(finalName.equals("Skull Banner Pattern")) {
+                        finalName = "Skull Charge Banner Pattern";
                     }
                     boolean skipAhead = false;
                     if(finalName.equals("Light")) {
