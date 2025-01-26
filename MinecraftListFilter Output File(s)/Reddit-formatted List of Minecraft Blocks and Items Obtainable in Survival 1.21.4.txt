@@ -287,7 +287,6 @@
 - Compass
 - Composter
 - Conduit
-- Cooked Beef
 - Cooked Chicken
 - Cooked Cod
 - Cooked Mutton
@@ -1360,6 +1359,7 @@
 - Spruce Trapdoor
 - Spruce Wood
 - Spyglass
+- Steak
 - Stick
 - Sticky Piston
 - Stone
