@@ -161,6 +161,8 @@ public class Main {
                         finalName = "Jack o'Lantern";
                     } else if(finalName.equals("Hay Block")) {
                         finalName = "Hay Bale";
+                    } else if(finalName.equals("Smooth Quartz")) {
+                        finalName += " Block";
                     } else if(finalName.equals("Flower Banner Pattern")) {
                         finalName = "Flower Charge Banner Pattern";
                     } else if(finalName.equals("Creeper Banner Pattern")) {

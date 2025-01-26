@@ -1272,7 +1272,7 @@
 - Smithing Table (Max x64)
 - Smoker (Max x64)
 - Smooth Basalt (Max x64)
-- Smooth Quartz (Max x64)
+- Smooth Quartz Block (Max x64)
 - Smooth Quartz Slab (Max x64)
 - Smooth Quartz Stairs (Max x64)
 - Smooth Red Sandstone (Max x64)

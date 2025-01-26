@@ -1272,7 +1272,7 @@ Small Dripleaf
 Smithing Table
 Smoker
 Smooth Basalt
-Smooth Quartz
+Smooth Quartz Block
 Smooth Quartz Slab
 Smooth Quartz Stairs
 Smooth Red Sandstone

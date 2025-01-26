@@ -1272,7 +1272,7 @@
 - [[Minecraft Smithing Table (Max x64)]]
 - [[Minecraft Smoker (Max x64)]]
 - [[Minecraft Smooth Basalt (Max x64)]]
-- [[Minecraft Smooth Quartz (Max x64)]]
+- [[Minecraft Smooth Quartz Block (Max x64)]]
 - [[Minecraft Smooth Quartz Slab (Max x64)]]
 - [[Minecraft Smooth Quartz Stairs (Max x64)]]
 - [[Minecraft Smooth Red Sandstone (Max x64)]]
