@@ -176,6 +176,8 @@ public class Main {
                         finalName = finalName.replace("Chest Minecart", "Minecart with Chest");
                     } else if(finalName.contains("Furnace Minecart")) {
                         finalName = finalName.replace("Furnace Minecart", "Minecart with Furnace");
+                    } else if(finalName.contains("Hopper Minecart")) {
+                        finalName = finalName.replace("Hopper Minecart", "Minecart with Hopper");
                     } else if(finalName.contains("TNT Minecart")) {
                         finalName = finalName.replace("TNT Minecart", "Minecart with TNT");
                     }

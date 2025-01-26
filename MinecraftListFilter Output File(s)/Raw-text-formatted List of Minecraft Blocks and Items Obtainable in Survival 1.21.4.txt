@@ -686,7 +686,6 @@ Honey Bottle
 Honeycomb
 Honeycomb Block
 Hopper
-Hopper Minecart
 Horn Coral
 Horn Coral Block
 Horn Coral Fan
@@ -885,6 +884,7 @@ Milk Bucket
 Minecart
 Minecart with Chest
 Minecart with Furnace
+Minecart with Hopper
 Minecart with TNT
 Miner Pottery Sherd
 Moss Block
