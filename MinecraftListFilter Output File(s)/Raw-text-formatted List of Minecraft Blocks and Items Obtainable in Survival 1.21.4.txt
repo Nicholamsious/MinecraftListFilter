@@ -1442,8 +1442,8 @@ Tuff Slab
 Tuff Stairs
 Tuff Wall
 Turtle Egg
-Turtle Helmet
 Turtle Scute
+Turtle Shell
 Twisting Vines
 Unwaxed Block of Copper
 Unwaxed Chiseled Copper
