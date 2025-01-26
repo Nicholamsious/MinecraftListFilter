@@ -447,6 +447,7 @@ Egg
 Elytra
 Emerald
 Emerald Ore
+Empty Map
 Enchanted Book of Aqua Affinity
 Enchanted Book of Bane of Arthropods I
 Enchanted Book of Bane of Arthropods II
@@ -883,7 +884,6 @@ Mangrove Slab
 Mangrove Stairs
 Mangrove Trapdoor
 Mangrove Wood
-Map
 Medium Amethyst Bud
 Melon
 Melon Seeds
