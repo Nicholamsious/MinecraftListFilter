@@ -17,7 +17,6 @@ Acacia Trapdoor
 Acacia Wood
 Activator Rail
 Allium
-Amethyst Block
 Amethyst Cluster
 Amethyst Shard
 Ancient Debris
@@ -85,7 +84,6 @@ Azalea Leaves
 Azure Bluet
 Baked Potato
 Bamboo
-Bamboo Block
 Bamboo Button
 Bamboo Chest Raft
 Bamboo Door
@@ -151,6 +149,22 @@ Blade Pottery Sherd
 Blast Furnace
 Blaze Powder
 Blaze Rod
+Block of Amethyst
+Block of Bamboo
+Block of Coal
+Block of Diamond
+Block of Emerald
+Block of Gold
+Block of Iron
+Block of Lapis Lazuli
+Block of Netherite
+Block of Quartz
+Block of Raw Copper
+Block of Raw Gold
+Block of Raw Iron
+Block of Redstone
+Block of Resin
+Block of Stripped Bamboo
 Blue Banner
 Blue Bed
 Blue Bundle
@@ -269,7 +283,6 @@ Clay Ball
 Clock
 Closed Eyeblossom
 Coal
-Coal Block
 Coal Ore
 Coarse Dirt
 Coast Armor Trim Smithing Template
@@ -404,7 +417,6 @@ Deepslate Tiles
 Detector Rail
 Diamond
 Diamond Axe
-Diamond Block
 Diamond Boots
 Diamond Chestplate
 Diamond Helmet
@@ -434,7 +446,6 @@ Echo Shard
 Egg
 Elytra
 Emerald
-Emerald Block
 Emerald Ore
 Enchanted Book of Aqua Affinity
 Enchanted Book of Bane of Arthropods I
@@ -620,7 +631,6 @@ Goat Horn (Ponder)
 Goat Horn (Seek)
 Goat Horn (Sing)
 Goat Horn (Yearn)
-Gold Block
 Gold Ingot
 Gold Nugget
 Gold Ore
@@ -695,7 +705,6 @@ Ice
 Ink Sac
 Iron Axe
 Iron Bars
-Iron Block
 Iron Boots
 Iron Chestplate
 Iron Door
@@ -733,7 +742,6 @@ Jungle Wood
 Kelp
 Ladder
 Lantern
-Lapis Block
 Lapis Lazuli
 Lapis Ore
 Large Amethyst Bud
@@ -944,7 +952,6 @@ Nether Star
 Nether Wart
 Nether Wart Block
 Netherite Axe
-Netherite Block
 Netherite Boots
 Netherite Chestplate
 Netherite Helmet
@@ -1163,7 +1170,6 @@ Purpur Pillar
 Purpur Slab
 Purpur Stairs
 Quartz
-Quartz Block
 Quartz Bricks
 Quartz Pillar
 Quartz Slab
@@ -1177,11 +1183,8 @@ Raw Beef
 Raw Chicken
 Raw Cod
 Raw Copper
-Raw Copper Block
 Raw Gold
-Raw Gold Block
 Raw Iron
-Raw Iron Block
 Raw Mutton
 Raw Porkchop
 Raw Rabbit
@@ -1214,14 +1217,12 @@ Red Terracotta
 Red Tulip
 Red Wool
 Redstone
-Redstone Block
 Redstone Comparator
 Redstone Lamp
 Redstone Ore
 Redstone Repeater
 Redstone Torch
 Reinforced Deepslate
-Resin Block
 Resin Brick
 Resin Brick Slab
 Resin Brick Stairs
@@ -1380,7 +1381,6 @@ Stonecutter
 String
 Stripped Acacia Log
 Stripped Acacia Wood
-Stripped Bamboo Block
 Stripped Birch Log
 Stripped Birch Wood
 Stripped Cherry Log
@@ -1445,8 +1445,8 @@ Turtle Egg
 Turtle Helmet
 Turtle Scute
 Twisting Vines
+Unwaxed Block of Copper
 Unwaxed Chiseled Copper
-Unwaxed Copper Block
 Unwaxed Copper Bulb
 Unwaxed Copper Door
 Unwaxed Copper Grate
@@ -1504,8 +1504,8 @@ Warped Stem
 Warped Trapdoor
 Warped Wart Block
 Water Bucket
+Waxed Block of Copper
 Waxed Chiseled Copper
-Waxed Copper Block
 Waxed Copper Bulb
 Waxed Copper Door
 Waxed Copper Grate

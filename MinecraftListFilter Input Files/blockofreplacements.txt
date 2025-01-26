@@ -1,0 +1,17 @@
+Bamboo
+Stripped Bamboo
+Coal
+Iron
+Gold
+Redstone
+Emerald
+Lapis Lazuli
+Diamond
+Netherite
+Quartz
+Amethyst
+Copper
+Raw Iron
+Raw Copper
+Raw Gold
+Resin

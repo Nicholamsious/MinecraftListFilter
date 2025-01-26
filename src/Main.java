@@ -6,7 +6,7 @@ enum FormattingMode {
 }
 
 public class Main {
-    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines, unstackablesMatch, unstackablesContain, stack16Match, stack16Contain;
+    private static List<String> excluding, rawFoodMatches, enchantments, potionItems, arrows, ominousBottles, goatHorns, finalLines, unstackablesMatch, unstackablesContain, stack16Match, stack16Contain, blockOfReplacements;
     private static String inputFilesFolder = "MinecraftListFilter Input Files", outputFilesFolder = "MinecraftListFilter Output File(s)";
     private static File inputFilesFolderFile, itemsDirectory;
     private static String minecraftVersion;
@@ -97,6 +97,7 @@ public class Main {
             unstackablesContain = readFile(inputFilesFolder + "/unstackablescontain.txt");
             stack16Match = readFile(inputFilesFolder + "/stack16match.txt");
             stack16Contain = readFile(inputFilesFolder + "/stack16contain.txt");
+            blockOfReplacements = readFile(inputFilesFolder + "/blockofreplacements.txt");
             if (files != null) {
                 String name;
                 String[] words;
@@ -191,6 +192,24 @@ public class Main {
                         for (String badSubstring : excluding) {
                             if (finalName.contains(badSubstring))
                                 skipAhead = true;
+                        }
+                    }
+                    if(finalName.endsWith(" Block")) {
+                        for(String replacementSubstring : blockOfReplacements) {
+                            if(replacementSubstring.equals("Lapis Lazuli")) {
+                                if(finalName.equals("Lapis Block")) {
+                                    finalName = "Block of Lapis Lazuli";
+                                    break;
+                                }
+                            } else if(finalName.startsWith(replacementSubstring)) {
+                                finalName = "Block of " + replacementSubstring;
+                                break;
+                            }
+                        }
+                        if(finalName.equals("Waxed Copper Block")) {
+                            finalName = "Waxed Block of Copper";
+                        } else if(finalName.equals("Unwaxed Copper Block")) {
+                            finalName = "Unwaxed Block of Copper";
                         }
                     }
                     if (!skipAhead) {
