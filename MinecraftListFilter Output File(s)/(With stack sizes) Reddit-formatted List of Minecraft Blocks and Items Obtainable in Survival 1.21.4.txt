@@ -1498,6 +1498,7 @@
 - Warped Stem (Max x64)
 - Warped Trapdoor (Max x64)
 - Warped Wart Block (Max x64)
+- Water Bottle (Unstackable)
 - Water Bucket (Unstackable)
 - Waxed Block of Copper (Max x64)
 - Waxed Chiseled Copper (Max x64)

@@ -1498,6 +1498,7 @@
 - [[Minecraft Warped Stem]]
 - [[Minecraft Warped Trapdoor]]
 - [[Minecraft Warped Wart Block]]
+- [[Minecraft Water Bottle]]
 - [[Minecraft Water Bucket]]
 - [[Minecraft Waxed Block of Copper]]
 - [[Minecraft Waxed Chiseled Copper]]

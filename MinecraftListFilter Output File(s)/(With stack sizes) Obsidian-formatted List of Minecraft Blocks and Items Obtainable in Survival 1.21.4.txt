@@ -1498,6 +1498,7 @@
 - [[Minecraft Warped Stem (Max x64)]]
 - [[Minecraft Warped Trapdoor (Max x64)]]
 - [[Minecraft Warped Wart Block (Max x64)]]
+- [[Minecraft Water Bottle (Unstackable)]]
 - [[Minecraft Water Bucket (Unstackable)]]
 - [[Minecraft Waxed Block of Copper (Max x64)]]
 - [[Minecraft Waxed Chiseled Copper (Max x64)]]

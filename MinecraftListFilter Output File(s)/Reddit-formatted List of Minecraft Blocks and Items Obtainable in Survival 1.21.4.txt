@@ -1498,6 +1498,7 @@
 - Warped Stem
 - Warped Trapdoor
 - Warped Wart Block
+- Water Bottle
 - Water Bucket
 - Waxed Block of Copper
 - Waxed Chiseled Copper
