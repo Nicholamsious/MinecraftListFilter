@@ -675,7 +675,7 @@
 - [[Minecraft Guster Banner Pattern (Unstackable)]]
 - [[Minecraft Guster Pottery Sherd (Max x64)]]
 - [[Minecraft Hanging Roots (Max x64)]]
-- [[Minecraft Hay Block (Max x64)]]
+- [[Minecraft Hay Bale (Max x64)]]
 - [[Minecraft Heart Of The Sea (Max x64)]]
 - [[Minecraft Heart Pottery Sherd (Max x64)]]
 - [[Minecraft Heartbreak Pottery Sherd (Max x64)]]
