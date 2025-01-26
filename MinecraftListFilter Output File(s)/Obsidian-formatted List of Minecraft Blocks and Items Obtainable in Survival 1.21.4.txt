@@ -1118,7 +1118,6 @@
 - [[Minecraft Potion of Slowness (01-30)]]
 - [[Minecraft Potion of Slowness (04-00)]]
 - [[Minecraft Potion of Slowness (Slowness IV 00-20)]]
-- [[Minecraft Potion of Slowness (Slowness IV 00-20)]]
 - [[Minecraft Potion of Strength (03-00)]]
 - [[Minecraft Potion of Strength (08-00)]]
 - [[Minecraft Potion of Strength (Strength II 01-30)]]
