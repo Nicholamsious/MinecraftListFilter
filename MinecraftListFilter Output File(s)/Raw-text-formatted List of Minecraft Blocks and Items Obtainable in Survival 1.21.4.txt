@@ -1212,8 +1212,8 @@ Red Stained Glass Pane
 Red Terracotta
 Red Tulip
 Red Wool
-Redstone
 Redstone Comparator
+Redstone Dust
 Redstone Lamp
 Redstone Ore
 Redstone Repeater

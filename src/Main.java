@@ -165,6 +165,8 @@ public class Main {
                         finalName = "Hay Bale";
                     } else if(finalName.equals("Smooth Quartz")) {
                         finalName += " Block";
+                    } else if(finalName.equals("Redstone")) {
+                        finalName += " Dust";
                     } else if(finalName.equals("Map")) {
                         finalName = "Empty Map";
                     } else if(finalName.equals("Flower Banner Pattern")) {
