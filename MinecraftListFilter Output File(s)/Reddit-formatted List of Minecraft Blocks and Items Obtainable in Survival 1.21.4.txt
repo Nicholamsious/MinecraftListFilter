@@ -433,9 +433,9 @@
 - Dirt
 - Disc Fragment 5
 - Dispenser
-- Dragon Breath
 - Dragon Egg
 - Dragon Head
+- Dragon's Breath
 - Dried Kelp
 - Dried Kelp Block
 - Dripstone Block

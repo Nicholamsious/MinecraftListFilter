@@ -163,6 +163,8 @@ public class Main {
                         finalName = "Turtle Shell";
                     } else if(finalName.equals("Rabbit Foot")) {
                         finalName = "Rabbit's Foot";
+                    } else if(finalName.equals("Dragon Breath")) {
+                        finalName = "Dragon's Breath";
                     } else if(finalName.equals("Hay Block")) {
                         finalName = "Hay Bale";
                     } else if(finalName.equals("Smooth Quartz")) {
