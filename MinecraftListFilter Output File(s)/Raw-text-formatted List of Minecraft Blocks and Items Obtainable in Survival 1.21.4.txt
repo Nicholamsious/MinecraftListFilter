@@ -1170,9 +1170,9 @@ Quartz Bricks
 Quartz Pillar
 Quartz Slab
 Quartz Stairs
-Rabbit Foot
 Rabbit Hide
 Rabbit Stew
+Rabbit's Foot
 Rail
 Raiser Armor Trim Smithing Template
 Raw Beef

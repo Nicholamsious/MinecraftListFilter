@@ -161,6 +161,8 @@ public class Main {
                         finalName = "Jack o'Lantern";
                     } else if(finalName.equals("Turtle Helmet")) {
                         finalName = "Turtle Shell";
+                    } else if(finalName.equals("Rabbit Foot")) {
+                        finalName = "Rabbit's Foot";
                     } else if(finalName.equals("Hay Block")) {
                         finalName = "Hay Bale";
                     } else if(finalName.equals("Smooth Quartz")) {
