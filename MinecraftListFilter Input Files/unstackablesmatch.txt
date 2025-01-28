@@ -1,6 +1,7 @@
 Fishing Rod
 Spyglass
 Flint And Steel
+Shears
 Trident
 Mace
 Shield

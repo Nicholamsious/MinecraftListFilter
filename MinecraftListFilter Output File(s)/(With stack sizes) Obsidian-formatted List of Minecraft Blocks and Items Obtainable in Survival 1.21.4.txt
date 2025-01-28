@@ -1250,7 +1250,7 @@
 - [[Minecraft Sentry Armor Trim Smithing Template (Max x64)]]
 - [[Minecraft Shaper Armor Trim Smithing Template (Max x64)]]
 - [[Minecraft Sheaf Pottery Sherd (Max x64)]]
-- [[Minecraft Shears (Max x64)]]
+- [[Minecraft Shears (Unstackable)]]
 - [[Minecraft Shelter Pottery Sherd (Max x64)]]
 - [[Minecraft Shield (Unstackable)]]
 - [[Minecraft Short Grass (Max x64)]]

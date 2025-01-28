@@ -1250,7 +1250,7 @@
 - Sentry Armor Trim Smithing Template (Max x64)
 - Shaper Armor Trim Smithing Template (Max x64)
 - Sheaf Pottery Sherd (Max x64)
-- Shears (Max x64)
+- Shears (Unstackable)
 - Shelter Pottery Sherd (Max x64)
 - Shield (Unstackable)
 - Short Grass (Max x64)
