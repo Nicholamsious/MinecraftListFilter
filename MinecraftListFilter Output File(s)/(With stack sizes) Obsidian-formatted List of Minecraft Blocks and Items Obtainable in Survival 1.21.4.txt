@@ -223,7 +223,7 @@
 - [[Minecraft Bubble Coral (Max x64)]]
 - [[Minecraft Bubble Coral Block (Max x64)]]
 - [[Minecraft Bubble Coral Fan (Max x64)]]
-- [[Minecraft Bucket (Unstackable)]]
+- [[Minecraft Bucket (Max x16)]]
 - [[Minecraft Budding Amethyst (Max x64)]]
 - [[Minecraft Bundle (Unstackable)]]
 - [[Minecraft Burn Pottery Sherd (Max x64)]]

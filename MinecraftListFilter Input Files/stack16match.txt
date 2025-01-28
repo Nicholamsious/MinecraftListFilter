@@ -3,3 +3,4 @@ Snowball
 Egg
 Writable Book
 Armor Stand
+Bucket
