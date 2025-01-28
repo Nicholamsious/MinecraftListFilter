@@ -17,4 +17,11 @@ Helmet
 Chestplate
 Leggings
 Boots
+Axe
+Hoe
+Pickaxe
+Shovel
+Sword
+Bow
+Crossbow
 Water Bottle

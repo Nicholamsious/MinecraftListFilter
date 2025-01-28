@@ -1,13 +1,6 @@
 Fishing Rod
 Spyglass
-Flint and Steel
-Axe
-Hoe
-Pickaxe
-Shovel
-Sword
-Bow
-Crossbow
+Flint And Steel
 Trident
 Mace
 Shield
