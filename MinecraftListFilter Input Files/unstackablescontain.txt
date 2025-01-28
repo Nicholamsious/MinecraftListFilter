@@ -22,6 +22,5 @@ Hoe
 Pickaxe
 Shovel
 Sword
-Bow
 Crossbow
 Water Bottle

@@ -10,3 +10,4 @@ Book and Quill
 Turtle Shell
 Totem of Undying
 Suspicious Stew
+Bow

@@ -190,7 +190,7 @@
 - [[Minecraft Bordure Indented Banner Pattern (Unstackable)]]
 - [[Minecraft Bottle o' Enchanting (Max x64)]]
 - [[Minecraft Bow (Unstackable)]]
-- [[Minecraft Bowl (Unstackable)]]
+- [[Minecraft Bowl (Max x64)]]
 - [[Minecraft Brain Coral (Max x64)]]
 - [[Minecraft Brain Coral Block (Max x64)]]
 - [[Minecraft Brain Coral Fan (Max x64)]]
