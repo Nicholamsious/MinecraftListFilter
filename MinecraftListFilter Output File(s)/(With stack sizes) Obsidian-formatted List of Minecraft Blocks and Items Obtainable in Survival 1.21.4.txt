@@ -1566,7 +1566,7 @@
 - [[Minecraft Wooden Pickaxe (Unstackable)]]
 - [[Minecraft Wooden Shovel (Unstackable)]]
 - [[Minecraft Wooden Sword (Unstackable)]]
-- [[Minecraft Written Book (Max x64)]]
+- [[Minecraft Written Book (Max x16)]]
 - [[Minecraft Yellow Banner (Max x16)]]
 - [[Minecraft Yellow Bed (Unstackable)]]
 - [[Minecraft Yellow Bundle (Unstackable)]]

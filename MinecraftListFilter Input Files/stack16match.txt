@@ -1,6 +1,6 @@
 Ender Pearl
 Snowball
 Egg
-Writable Book
+Written Book
 Armor Stand
 Bucket
