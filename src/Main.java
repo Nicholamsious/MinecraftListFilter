@@ -86,18 +86,18 @@ public class Main {
                 "Potion",
                 "Lingering Potion");
         try {
-            rawFoodMatches = readFile(inputFilesFolder + "/rawfoodmatches.txt");
-            enchantments = readFile(inputFilesFolder + "/enchantedbooks.txt");
-            potionItems = readFile(inputFilesFolder + "/potions.txt");
-            arrows = readFile(inputFilesFolder + "/arrows.txt");
-            ominousBottles = readFile(inputFilesFolder + "/ominousbottles.txt");
-            goatHorns = readFile(inputFilesFolder + "/goathorns.txt");
+            rawFoodMatches = readFileFromInputFilesFolder("rawfoodmatches.txt");
+            enchantments = readFileFromInputFilesFolder("enchantedbooks.txt");
+            potionItems = readFileFromInputFilesFolder("potions.txt");
+            arrows = readFileFromInputFilesFolder("arrows.txt");
+            ominousBottles = readFileFromInputFilesFolder("ominousbottles.txt");
+            goatHorns = readFileFromInputFilesFolder("goathorns.txt");
             finalLines = new ArrayList<>();
-            unstackablesMatch = readFile(inputFilesFolder + "/unstackablesmatch.txt");
-            unstackablesContain = readFile(inputFilesFolder + "/unstackablescontain.txt");
-            stack16Match = readFile(inputFilesFolder + "/stack16match.txt");
-            stack16Contain = readFile(inputFilesFolder + "/stack16contain.txt");
-            blockOfReplacements = readFile(inputFilesFolder + "/blockofreplacements.txt");
+            unstackablesMatch = readFileFromInputFilesFolder("unstackablesmatch.txt");
+            unstackablesContain = readFileFromInputFilesFolder("unstackablescontain.txt");
+            stack16Match = readFileFromInputFilesFolder("stack16match.txt");
+            stack16Contain = readFileFromInputFilesFolder("stack16contain.txt");
+            blockOfReplacements = readFileFromInputFilesFolder("blockofreplacements.txt");
             if (files != null) {
                 String name;
                 String[] words;
@@ -276,6 +276,9 @@ public class Main {
             line = scanner.nextLine();
         }
         return line;
+    }
+    public static List<String> readFileFromInputFilesFolder(String filenameOrPath) throws IOException {
+        return readFile(inputFilesFolder + "/" + filenameOrPath);
     }
     public static List<String> readFile(String filenameOrPath) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(new File(filenameOrPath)));
