@@ -344,7 +344,6 @@ public class Main {
     }
 
     public static void writeObtainableListToFile(FormattingMode formattingMode, String outputFilesFolder, String minecraftVersion, boolean includeMaximumStackAmounts) throws IOException {
-        String fileVariant = "Null";
         String fileName = "";
         // Choose and build the prefix.
         if(includeMaximumStackAmounts) {
