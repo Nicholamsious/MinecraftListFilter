@@ -1,6 +1,8 @@
 # MinecraftListFilter: Generate a list of obtainable survival items
 This program is designed to be used alongside [DecompilerMC](https://github.com/hube12/DecompilerMC).
-This program generates a list of blocks and items which can only be obtained through Minecraft Survival or Hardcore mode.
+This program generates a list of blocks and items which **can only be obtained through Minecraft Survival or Hardcore mode**.
+
+The lists generated include but aren't limited to: all arrow variants, enchantments, goat horn variants, ominous bottle variants, and potions.
 Here's how to use it.
 1. Clone [DecompilerMC](https://github.com/hube12/DecompilerMC)
 2. Open the command prompt (cmd) and `cd` into the `DecompilerMC` folder.
